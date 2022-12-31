@@ -1,0 +1,73 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(tema.jpg) ;
+}
+.container{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    display: flex;
+    justify-content: flex-end;
+    background: url(tema.jpg);
+    height: 100vh;
+    background-size: 100% 100%;
+}
+ul{
+    list-style-type: none;
+}
+ul li{
+    display: inline-block;
+    margin: 20px 35px;
+    padding: 5px;
+    margin-left: 5px;
+}
+ul li a{
+    text-decoration: none;
+    color: darkblue;
+    padding: 20px 25px;
+    font-size: 28px;
+    font-weight: left;
+    
+}
+ul li a:hover{
+    background-color: rgb(245, 102, 7);
+    color: rgb(22, 19, 221);
+}
+h1{
+    margin-left: 35%;
+    margin-top: 20px;
+    color: rgb(0, 0, 0);
+    padding: 25px 20px;
+    font-size: 50px;
+    border-radius: 6px;
+}
+.b{
+    margin-left: 40%;
+    margin-top: 20px;
+    color: rgb(0, 0, 0);
+    padding: 25px 20px;
+    font-size: 30px;
+    border-radius: 6px;
+}
+.fotograf{
+    display: flex;
+    margin: 70px;
+}
+.Danışman{
+    float: left;
+    width: 600px;
+    height: 250px;
+}
+.Danışman1{
+    width: 600px;
+}
+.Danışman2{
+    width: 350px;
+}
+p{
+    background-color: #e1d7c6;
+    font-size: 30px;
+
+}
